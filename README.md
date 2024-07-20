@@ -3,7 +3,6 @@ The service of Investutil needs data. Data from web scraping of publicly accessi
 
 ## Architecture
 
-We use Crawlab as web crawler management platform https://github.com/crawlab-team/crawlab
 
 Crawlab is a golang-based distributed web crawler management platform. It support crawler frameworks including Scrapy, Selenium.
 
