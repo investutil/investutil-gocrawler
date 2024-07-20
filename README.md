@@ -3,9 +3,6 @@ The service of Investutil needs data. Data from web scraping of publicly accessi
 
 ## Architecture
 
-
-GoCrawler is a simpler web crawler management platform. 
-
 The web scraping framwork, we will use  Colly (Golang)
 
 Why not rust:
