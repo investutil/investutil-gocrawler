@@ -10,7 +10,7 @@ Go are easier to code, and web scraping requires more agility.
 
 Reference project layout: https://github.com/golang-standards/project-layout
 
-Project
+```
 .
 ├── cmd
 │   └── main
@@ -29,4 +29,4 @@ Project
 │   └── utils             // Utility functions
 │       └── utils.go      // Common helper functions
 └── go.mod                // Go module file
-
+```
