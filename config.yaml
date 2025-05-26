@@ -1,0 +1,15 @@
+database:
+  mongodb:
+    uri: "mongodb://localhost:27017"
+    database: "investutil"
+
+queue:
+  rabbitmq:
+    uri: "amqp://guest:guest@localhost:5672/"
+    exchange: "crypto"
+    exchange_type: "direct"
+    queue: "crypto_data"
+    routing_key: "crypto.prices"
+
+collector:
+  schedule: "0 0 * * *"  # Run at midnight every day 
